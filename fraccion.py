@@ -5,11 +5,9 @@ class Fraction:
 
     def sumar(self, fraccion: int):
         try:
-
             numerador = (self.numerator * fraccion.denominator) + (self.denominator * fraccion.numerator)
             denominador = self.denominator * fraccion.denominator
             return print(f"{numerador / denominador}")
-
         except (ValueError, ZeroDivisionError):
             print("No es un numero valido.")
         finally:
@@ -17,11 +15,9 @@ class Fraction:
 
     def restar(self, fraccion: int):
         try:
-
             numerador = (self.numerator * fraccion.denominator) - (self.denominator * fraccion.numerator)
             denominador = self.denominator * fraccion.denominator
             return print(f"{numerador / denominador}")
-
         except (ValueError, ZeroDivisionError):
             print("No es un numero valido.")
         finally:
@@ -29,11 +25,9 @@ class Fraction:
 
     def multiplicar(self, fraccion: int):
         try:
-
             numerador = self.numerator * fraccion.numerador
             denominador = self.denominator * fraccion.denominator
             return print(f"{numerador / denominador}")
-
         except (ValueError, ZeroDivisionError):
             print("No es un numero valido.")
         finally:
@@ -41,11 +35,9 @@ class Fraction:
 
     def dividir(self, fraccion: int):
         try:
-
             numerador = self.numerator * fraccion.denominator
             denominador = self.denominator * fraccion.numerator
             return print(f"{numerador / denominador}")
-
         except (ValueError, ZeroDivisionError):
             print("No es un numero valido.")
         finally:
